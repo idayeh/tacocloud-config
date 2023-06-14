@@ -1,10 +1,8 @@
 server:
-  port: 8080
+  port: 8085
 
 
-spring:
-  application:
-    name: ingredient-client  
+spring: 
   thymeleaf:
     check-template: false
     check-template-location: false
