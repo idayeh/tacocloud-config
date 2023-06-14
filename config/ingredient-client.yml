@@ -1,20 +1,3 @@
 server:
   port: 8080
-  
-  
-spring:
-  application:
-    name: ingredient-client 
-  thymeleaf:
-    check-template: false
-    check-template-location: false
-  cloud:
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-      routes:
-      - id: ingredientService
-        uri: http://ingredient-service/
-        predicates:
-        - Path=/ingredients/**   
+ 
