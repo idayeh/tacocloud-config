@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  
+  
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: ingredientService
+        uri: http://ingredient-service/
+        predicates:
+        - Path=/ingredients/**   
