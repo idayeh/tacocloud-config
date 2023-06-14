@@ -3,6 +3,8 @@ server:
   
   
 spring:
+  application:
+    name: ingredient-client 
   thymeleaf:
     check-template: false
     check-template-location: false
