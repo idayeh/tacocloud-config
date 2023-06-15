@@ -3,4 +3,4 @@ server:
 
 
 ida:
-  pw: '{cipher}ccaa1eb60443ee7bf68814da552596c01587c65a06cc28f81a37a220c1458ed4'
+  gitpw: '{cipher}ccaa1eb60443ee7bf68814da552596c01587c65a06cc28f81a37a220c1458ed4'
